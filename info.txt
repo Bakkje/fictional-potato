@@ -1,0 +1,142 @@
+
+print(f"Sir {first} {last} is a coder. ")
+
+len()
+message.upper()
+message.lower()
+message.title()
+message.find()
+message.replace()
+"coder" in message
+
+
+import math
+from re import L
+
+print(math.ceil(2.9))
+
+
+if a or b:
+    if a and b:
+        if a and not b:
+
+
+break #will get out of a loop
+
+
+while True:
+    #is a loop
+
+for item in range(10):
+    #is a loop
+
+
+list_numbers = [5, 9, 7]
+
+a, b, c = numbers
+
+print(a, b, c)
+
+-----------------------------------------------
+
+Type = 
+
+List = 
+[1, 2, 3]
+
+Class = 
+class NameOfClass:
+    
+Function / Method = 
+def function_name()
+
+Object / Instence = 
+an instence of a class
+
+Variable = 
+are containers for storing data values
+
+
+"""
+class Example:
+    def functi():                               # Defining a function/method. 
+        print("this is a function/method defined in the example class")
+
+
+examp1 = Example()                              # This object is called and stored in the examp1 variable. 
+examp1.functi()                                 # This will now run the functi function.
+""" 
+
+Attribute = 
+
+Constructor = 
+is a function that gets called at the time of creating an object 
+
+
+"""
+class Example2:
+    def __init__(self, x, y):                   # self is a reference to the current object. 
+        self.x = x
+        self.y = y
+
+examp = Example2(10, 20)
+print(examp.x)
+"""
+
+
+Inheritance =
+
+    """
+    class Family:
+        def something(self):
+            print("Hello world! ")
+           
+
+    class Random(Family):           # This inherits all the methods from the Family class
+        pass                        # If no methods are created in here you can write pass to avoid issues
+
+
+    rand1 = Random()
+    rand1.something()
+    """
+
+
+Modules =
+A module is a file with Python code. This to organize the code in multiple files.
+
+For example:
+Create a file called 'convertors.py' in which you define a few calculation methods, for example kg_to_lbs().
+
+In the main file you can 'import convertors' (so not with the .py) and write something like:
+
+    """
+    print(convertors.kg_to_lbs(85))
+    """
+
+OR for importing a specific method do the following:
+
+    """
+    from convertor import kg_to_lbs
+    """
+    # After typing import 'ctrl + space' will give you all method options to import from the module.
+
+This way when calling this function you can directly call it and don't need to prefix the 'convertors.' in front of it.
+
+
+
+Packages =
+This is the name of a folder basically. So you can have a better structure if you have a lot of modules.
+To call a function you have to or import the whole thing or import part of it with more text when coding
+
+
+
+https://docs.python.org/3/py-modindex.html
+
+
+check out selenium
+
+
+
+
+excel:
+import openpyxl as xl
